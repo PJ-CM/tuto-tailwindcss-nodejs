@@ -1,0 +1,21 @@
+{
+  "name": "tuto_tailwindcss_nodejs",
+  "version": "1.0.0",
+  "description": "Tutorial para echar un vistazo general sobre el manejo de los aspectos más destacados de TailwindCSS y su interacción en un proyecto con ReactJS.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon --watch src src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "tailwindcss": "^1.8.10"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
